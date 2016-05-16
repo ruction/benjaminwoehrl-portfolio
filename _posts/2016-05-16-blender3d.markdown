@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Blender 3D"
+subtitle: "WIP, Modelling, Texturing"
+date:   2016-05-10 01:39:57 +0200
+categories: Art
+thumbnail: "blender3d-spaceship.jpg"
+link: ""
+short: ""
+---
+
+![Blender 3D - Gras](/images/posts/blender3d-gras.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Airship](/images/posts/blender3d-airship.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Ruction Day](/images/posts/blender3d-ruction-day.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Ruction Night](/images/posts/blender3d-ruction-night.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Spaceship](/images/posts/blender3d-spaceship.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Table Front](/images/posts/blender3d-table-front.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Table Back](/images/posts/blender3d-table-back.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Barn](/images/posts/blender3d-barn.jpg){: .aligncenter .img-responsive}
+<br>
+![Blender 3D - Airplane](/images/posts/blender3d-airplane.jpg){: .aligncenter .img-responsive}

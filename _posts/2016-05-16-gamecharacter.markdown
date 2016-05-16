@@ -3,7 +3,7 @@ layout: post
 title:  "Game Character"
 subtitle: "Skizzen, Animation"
 date:   2016-05-10 01:39:57 +0200
-categories: Projects
+categories: Projects Art
 thumbnail: "gamecharactercolored2.jpg"
 link: ""
 short: "StopMotion Animation eines Spielecharakters."
