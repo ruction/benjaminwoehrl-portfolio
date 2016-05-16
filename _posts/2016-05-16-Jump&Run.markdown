@@ -4,7 +4,7 @@ title:  "Jump & Run"
 subtitle: "Quintus Browsergame"
 date:   2016-05-10 01:39:57 +0200
 categories: Projects
-thumbnail: "jumpandrun.png"
+thumbnail: "jumpandrun.jpg"
 link: "http://www.benjaminwoehrl.de/game"
 short: "Basierend auf Tilemaps mit Kollisionserkennung und Touchunterstützung."
 ---
