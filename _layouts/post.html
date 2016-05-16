@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="content">
+		
+		<div class="row single-project hidden-sm hidden-md hidden-xs">
+			<div class="col-lg-2">
+				<a href="/"><span class="glyphicon glyphicon-arrow-left"></span></a>
+				<br><br>
+				<h3>{{ page.title }}</h3>
+				<h4>{{ page.subtitle }}</h4>
+				<br>
+				<p>
+					{{ page.short }}
+				</p>
+				<br>
+				{% if page.link != "" %}
+					<a href="{{ page.link }}" target="_blank"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span></a>
+				{% endif %}
+			</div>
+			<div class="col-lg-10">
+				{{ content }}
+			</div>
+		</div>
+
+		<div class="row single-project col-lg-12 hidden-lg text-center">
+				<a href="/" class="pull-left"><span class="glyphicon glyphicon-arrow-left"></span></a>
+				<br><br>
+				<h3>{{ page.title }}</h3>
+				<h4>{{ page.subtitle }}</h4>
+				<br>
+				<p>
+					{{ page.short }}
+					{% if page.link != "" %}
+						<a href="{{ page.link }}" target="_blank">(URL)</a>
+					{% endif %}
+				</p>
+				<br>
+				{{ content }}
+		</div>
+		
+    </div>
+
+    {% include footer.html %}
+	
+    <script type="text/javascript" src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+  
+  </body>
+
+</html>
+
+
+
+

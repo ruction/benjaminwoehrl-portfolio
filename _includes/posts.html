@@ -1,0 +1,32 @@
+
+<div class="projects_container clearfix">
+	<ul class="post-list">
+	{% if include.param == "All" %}
+		{% for post in site.posts %}
+	  		<div class="item">
+	  			<div class="crop">
+	  				<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}_thumbnail">
+						<img src='/images/posts/{{ post.thumbnail }}' />
+	  				</a>
+	  			</div>
+	  			<a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+	  			<h4>{{ post.subtitle }}</h4>
+	  		</div>
+		{% endfor %}
+	{% else %}
+		{% for post in site.posts %}
+			{% if post.categories contains include.param %}
+		  		<div class="item">
+		  			<div class="crop">
+		  				<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}_thumbnail">
+		  					<img src='/images/posts/{{ post.thumbnail }}' />
+		  				</a>
+		  			</div>
+		  			<a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+		  			<h4>{{ post.subtitle }}</h4>
+		  		</div>
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+	</ul>
+</div>
