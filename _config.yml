@@ -8,9 +8,9 @@
 # Site settings
 title: Benjamin Wöhrl, Developer & Artist
 email: hey@benjaminwoehrl.de
-description: > # Ist Mitgründer der Pixelrowdies und seit über 5 Jahren selbständiger Entwickler und Designer.
+description: Ist Mitgründer der Pixelrowdies und seit über 5 Jahren selbständiger Entwickler und Designer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "benjaminwoehrl.de" # the base hostname & protocol for your site
+url: http://www.benjaminwoehrl.de # the base hostname & protocol for your site
 
 defaults:
   -
