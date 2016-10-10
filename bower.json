@@ -1,0 +1,10 @@
+{
+  "name": "benjaminwoehrl-portfolio",
+  "homepage": "https://github.com/ruction/benjaminwoehrl-portfolio",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "components-font-awesome": "^4.6.3",
+    "hover": "^2.0.2"
+  }
+}
