@@ -6,6 +6,7 @@ date:   2016-05-10 01:39:57 +0200
 categories: Projects
 thumbnail: "jumpandrun.jpg"
 link: "http://www.benjaminwoehrl.de/game"
+github: "https://github.com/ruction/quintus-jump-and-run"
 short: "Basierend auf Tilemaps mit Kollisionserkennung und Touchunterstützung."
 ---
 

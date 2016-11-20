@@ -6,6 +6,7 @@ date:   2016-05-10 01:39:57 +0200
 categories: Projects Art
 thumbnail: "gamecharactercolored2.jpg"
 link: ""
+github: ""
 short: "StopMotion Animation eines Spielecharakters."
 ---
 

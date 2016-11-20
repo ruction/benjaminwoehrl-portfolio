@@ -6,6 +6,7 @@ date:   2016-05-10 01:39:57 +0200
 categories: Work
 thumbnail: "glimpse-client.jpg"
 link: ""
+github: ""
 short: "Design und Umsetzung der plattformübergreifenden glimpse. Applikation."
 ---
 
