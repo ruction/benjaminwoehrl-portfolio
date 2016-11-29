@@ -139,8 +139,13 @@ header {
 				color: rgba(111,189,255,0.4)!important;
 			}
 
-img.logo {
-	height: 70px!important;
+img.logo[src$=".png"] {
+	height: 200px!important;
+}
+
+img.logo[src$=".gif"] {
+	height: 110px!important;
+	margin-top: -25px;
 }
 
 div.logo {
